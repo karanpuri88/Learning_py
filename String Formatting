@@ -1,0 +1,20 @@
+# String Formatting
+
+name = "Karan"
+surname = 'Puri'
+
+#Strings - formatting v1
+print("My Name is %s and last name is %s"%(name,surname))
+
+
+#Strings - formatting v2
+print("My Name is {} & last name is {}".format(name,surname))
+print("Reverse the Position: My Name is {1} & last name is {0}".format(name,surname))
+
+
+#Strings - formatting v3 (f-strings), PYTHON 3.6 or higher
+print(f"My name is {name} and last name is {surname}")
+
+
+#Concatenation way
+print("My name is " + name + "last name is " + surname)
